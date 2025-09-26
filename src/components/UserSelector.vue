@@ -7,13 +7,11 @@
         :return-object="true"
         clearable
         >
-        <!--A completer-->
         <template #prepend-item>
-            <!--Loader pendant le chargement-->
         </template>
 
         <template #no-data>
-            <!--Aucun utilisateur trouve-->
+            <p>No Users found</p>
         </template>
     </VSelect>
 </template>
