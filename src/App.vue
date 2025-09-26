@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import UserSelector from './components/UserSelector.vue';
 </script>
 
 <template>
   <div>
+    <UserSelector />
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
